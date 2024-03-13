@@ -1,0 +1,19 @@
+xlsx and csv files -------->
+stest- captures data after performing OCR (has many frames of same car captured)
+data-contains non repated data (number plate removes extra frames data)
+details- database to compare with data 
+run-contains all the information of the car which is running 
+anprdoc- brief  data showing details of cars
+
+python programs ----------->
+main.py- uses sample.mp4  process it to OCR and saves data in csv format to stest
+data.py - used to remove repeated values and saves Non-Repeated Data
+run.py - takes all the information from data.csv and details.csv compares similar file and saves to run.csv 
+anprveri.py - takes all the data from the run.csv makes data short and tells about the car details
+
+graphBlack -shows  graphs of black listed cars running
+graphFitness- shows graph of running vehicle fitness expiry and active 
+graphinsurance- shows graph of the insurance expiry and active
+graphpuc - graphof Pollution Under Control
+graphrcstatus- graph of rc status of vehicle
+allgraph- shows all graph totally 
