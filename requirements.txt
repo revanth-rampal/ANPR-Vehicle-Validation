@@ -1,0 +1,9 @@
+easyocr==1.7.2
+filterpy==1.4.5
+lap==0.5.12
+matplotlib==3.10.1
+numpy==2.2.4
+pandas==2.2.3
+scipy==1.15.2
+skimage==0.0
+ultralytics==8.3.96
